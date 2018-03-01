@@ -1,4 +1,4 @@
-{% set version = "0.10.1" %}
+{% set version = "0.11.0" %}
 
 package:
   name: effect
@@ -7,7 +7,7 @@ package:
 source:
   fn: '{{ version }}.tar.gz'
   url: https://github.com/python-effect/effect/archive/{{ version }}.tar.gz
-  sha256: 4e64ef3fdd5720d70ebc95b53101cd5d682ca4e50afa7af3e109e84c4043d507
+  sha256: 1f0e270c93b3d4633eef26943ea334564b29d1747ca00d1be2fa7d9555c1e8d5
 
 build:
   number: 0
