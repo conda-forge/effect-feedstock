@@ -2,23 +2,23 @@
 
 package:
   name: effect
-  version: '{{ version }}'
+  version: {{ version }}
 
 source:
-  fn: '{{ version }}.tar.gz'
   url: https://github.com/python-effect/effect/archive/{{ version }}.tar.gz
   sha256: 4e64ef3fdd5720d70ebc95b53101cd5d682ca4e50afa7af3e109e84c4043d507
 
 build:
   number: 0
+  noarch: python
 
 requirements:
   build:
     - python
-    - attrs
-    - six
+    - pip
   run:
     - python
+    - setuptools
     - attrs
     - six
 
@@ -33,7 +33,8 @@ test:
 about:
   home: https://github.com/python-effect/effect
   license: MIT
-  summary: >
+  license_file: README.rst
+  summary: |
     Effect is a library for helping you write purely functional code by
     isolating the effects (that is, IO or state manipulation) in your code.
 
