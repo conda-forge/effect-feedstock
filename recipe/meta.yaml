@@ -18,17 +18,12 @@ requirements:
     - pip
   run:
     - python
-    - setuptools
     - attrs
     - six
 
 test:
-  requires:
-    - pip
-    - pytest
-  commands:
-    - pip install testtools
-    - py.test {{ SRC_DIR }}/effect
+  imports:
+    - effect
 
 about:
   home: https://github.com/python-effect/effect
