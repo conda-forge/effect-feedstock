@@ -7,7 +7,8 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Effect is a library for helping you write purely functional code by isolating the effects (that is, IO or state manipulation) in your code.
+Summary: Effect is a library for helping you write purely functional code by
+isolating the effects (that is, IO or state manipulation) in your code.
 
 
 
@@ -16,113 +17,11 @@ Current build status
 ====================
 
 
-<table>
-    
-  <tr>
-    <td>Azure</td>
+<table><tr><td>All platforms:</td>
     <td>
-      <details>
-        <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master">
-          </a>
-        </summary>
-        <table>
-          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
-          <tbody><tr>
-              <td>linux_python2.7</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_python3.8</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=linux&configuration=linux_python3.8" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python2.7</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python3.8</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=osx&configuration=osx_python3.8" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python2.7</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=win&configuration=win_python2.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=win&configuration=win_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=win&configuration=win_python3.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python3.8</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master&jobName=win&configuration=win_python3.8" alt="variant">
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5874&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/effect-feedstock?branchName=master">
+      </a>
     </td>
   </tr>
 </table>
